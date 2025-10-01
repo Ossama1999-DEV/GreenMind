@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>GreenMind - Interface Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo GreenMind" class="logo">
+    <h1>🌱 GreenMind</h1>
+  </header>
+
+  <main>
+    <!-- Curseur luminosité -->
+    <section class="control">
+      <label for="lightSlider">Luminosité :</label>
+      <input type="range" id="lightSlider" min="0" max="100" value="50">
+      <span id="lightValue">50%</span>
+    </section>
+
+    <!-- Boutons actions -->
+    <section class="control">
+      <button id="openDoor">🚪 Ouvrir la porte</button>
+      <button id="waterPlant">💧 Arroser</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 GreenMind - Ingénierie CESI Agro & IA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
