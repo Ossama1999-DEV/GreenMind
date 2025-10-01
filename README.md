@@ -1,5 +1,13 @@
 # 🌱 GreenMind
 
+## 🏠 Maison
+
+<img src="lab/serreMaison.png" alt="Serre connectée dans la maison" width="300"/>
+
+## 🥕 Agroalimentaire
+
+<img src="lab/serreAgro.png" alt="Serre connectée en agroalimentaire" width="300"/>
+
 **GreenMind** est une serre intelligente pilotée par **IA**, développée dans le cadre du CESI.  
 Le projet allie **ingénierie embarquée**, **agronomie** et **intelligence artificielle** pour automatiser la gestion d’une serre (arrosage, chauffage, capteurs, prévisions, etc.).
 
