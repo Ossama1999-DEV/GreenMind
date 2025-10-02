@@ -43,4 +43,11 @@ cp build/test/GreenMindTests driver/ 2>/dev/null || true
 
 echo "[OK] driver/ contient :"
 ls -lh driver/
+
+# ╭──────────────────────────────╮
+# │ DOC & CHANGELOG              │
+# ╰──────────────────────────────╯
+echo "📝 Génération du CHANGELOG..."
+git log --pretty=format:"- %s" > CHANGELOG.md || true
+
 echo "[INFO] Script terminé avec succès."
