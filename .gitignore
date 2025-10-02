@@ -1,2 +1,11 @@
 /build
 /driver
+.venv
+.direnv
+IA/greenmind.egg-info
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
