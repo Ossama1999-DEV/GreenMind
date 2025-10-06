@@ -1,17 +1,16 @@
 # 🌱 GreenMind
 
-## 🏠 Maison
+### 🏠 Maison
 
 <img src="lab/serreMaison.png" alt="Serre connectée dans la maison" width="300"/>
 
-## 🥕 Agroalimentaire
+### 🥕 Agroalimentaire
 
 <img src="lab/serreAgro.png" alt="Serre connectée en agroalimentaire" width="300"/>
 
 **GreenMind** est une serre intelligente pilotée par **IA**, développée dans le cadre du CESI.  
 Le projet allie **ingénierie embarquée**, **agronomie** et **intelligence artificielle** pour automatiser la gestion d’une serre (arrosage, chauffage, capteurs, prévisions, etc.).
 
----
 
 ## 📁 Structure du projet
 
@@ -32,8 +31,6 @@ repo/GreenMind
 ├── startup.sh     # Script de build & packaging
 └── README.md      # Ce fichier
 ```
-
----
 
 ## ⚙️ Build & Exécution
 
@@ -65,8 +62,6 @@ Sortie attendue :
 Version : GreenMind v0.1.0
 ```
 
----
-
 ## 🧪 Tests unitaires
 
 Les tests unitaires sont gérés avec **GoogleTest** et intégrés au processus de build via `startup.sh`.
@@ -96,8 +91,6 @@ ctest --output-on-failure
 Les résultats détaillés s’affichent en cas d’échec.  
 Les tests couvrent la logique métier de la bibliothèque et de l’application principale.
 
----
-
 ## 🌐 Interface Web
 
 Un prototype de dashboard est disponible dans `AppWeb/` :
@@ -114,8 +107,6 @@ python3 -m http.server 8080
 ```
 Accéder à [http://localhost:8080](http://localhost:8080).
 
----
-
 ## 📦 Bibliothèques générées
 
 Dans `driver/` :
@@ -123,8 +114,6 @@ Dans `driver/` :
 - **Dynamique** : `libGreenMindLib.so`
 
 Ces bibliothèques contiennent la logique interne réutilisable (mobile, web, services externes).
-
----
 
 ## 🗺️ Architecture du projet
 
@@ -136,8 +125,6 @@ flowchart LR
     GreenMindApp -- REST/API --> AppMobile
 ```
 
----
-
 ## 🚀 Prochaines étapes
 
 - Ajouter les premiers capteurs (température, humidité, luminosité)
@@ -146,9 +133,12 @@ flowchart LR
 - Étendre les tests unitaires et fonctionnels
 - Préparer une installation système (`make install`) pour distribuer la lib
 
----
 
 ## 👨‍💻 Auteurs
 
-Projet développé par **DBIBIH Oussama** / Équipe CESI  
-Sous la direction de **CESI Ingénierie Systèmes Embarqués**.
+Projet développé par Équipe CESI:
+
+- Chef de projet                : **DBIBIH Oussama**
+- Responsables technique        : **Thomas Castello** & **Damien Navarri**
+- Responsables business         : **Matthis Marti**
+- Responsables communication    : **Quentin Hallier** & **Lucas Giraud**
